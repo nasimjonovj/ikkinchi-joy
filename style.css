@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background:yellow;
+    
+    padding: 30px;
+    padding: 15px 40px  ;
+    padding:10px 20px 5px 0px ;
+
+    margin: 50px;
+    margin: 30px auto;
+    border-radius: 20px;
+    border-radius: 8px 130px;
+}
+.msg{
+    width: 240px;
+    background: rgb(136, 226, 136);
+    padding: 16px;
+    margin: 10px 50px ;
+    border-radius: 14px 14px 14px 0px;
+    border-left: 4px solid green;
+
+}
+.msg span{
+    font-style: 10px;
+    display: block;
+    text-align: right;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background: crimson;
+    /* davomiylik */
+    transition-duration: 0.5s;
+    /* kechiktirish */
+    transition-delay: 0;
+    /* holati */
+    transition-timing-function: ease;
+    /* xossasi */
+    transition-property: all;
+
+}
+.circle:hover{
+    background: gold;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 30px;
+    background: dodgerblue;
+    color: white;
+    border-radius: 0 14px 0 14px;
+    border: 1px solid dodgerblue;
+    cursor: pointer;
+    transition: all .3s ease 0s;
+    
+}
+.btn:hover{
+    background: white;
+    color: dodgerblue;
+
+}

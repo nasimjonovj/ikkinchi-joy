@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: navy;
+} 
+.box{
+    width: 800px;
+    height: 600px;
+    border: 1px solid red;
+    margin: auto;
+    display: block;
+    display: flex;
+    margin-top: 10px;
+}
+.footer{
+    height: 600px;
+    width: 40%;
+    background-color: blueviolet;
+
+}
+.icons{
+    height: 600px;
+    width: 60%;
+    background: white;
+}
+.footer h1{
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+} .footer p{
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+   
+}
+.text{
+   margin: 50px;
+   color: white;
+   
+}
+.footer button{
+    width: 250px;
+    height: 30px;
+  display: block;
+  margin: auto;
+  
+  
+}
+.btn{
+ margin: 30px;
+}
+.icons h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.icons h5{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.icons input{
+    width: 350px;
+    height: 45px;
+    margin: auto;
+    display: block;
+    
+
+}
